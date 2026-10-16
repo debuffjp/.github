@@ -1,32 +1,30 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/debuffjp/brand/main/assets/lockup-lime.svg">
-  <img src="https://raw.githubusercontent.com/debuffjp/brand/main/assets/lockup-ink.svg" width="300" alt="debuff">
-</picture>
+<img src="https://raw.githubusercontent.com/debuffjp/brand/main/assets/org-logo.svg" width="72" alt="Debuff Foundation">
 
-**more room for play.** An open-source, agent-native toolkit for small, polished 2D web games, built for game jams and instant-play distribution.
+# Debuff Foundation
 
-- **Web-standard.** WebGL2 with a Canvas 2D fallback, Pointer Events, Gamepad, Web Audio, ES modules. No proprietary runtime, editor or project format.
-- **Lean by default.** Tree-shakeable packages, and every build reports its size. Dev tooling can't leak into what players download.
-- **Agent-ready, human-led.** Typed creative parameters, a dev inspection surface and deterministic scenario tests. AI agents get evidence; people keep creative control.
+We make **[debuff](https://github.com/debuffjp/debuff)**, an open-source toolkit for small, polished 2D games that run in the browser. **More room for play:** less setup and plumbing, more time for mechanics, art and weird ideas.
 
-```bash
-npm create debuff@latest my-game
-```
+**[debuff.jp](https://debuff.jp)** · **[why debuff](https://debuff.jp/guide/why)** · **[try it](https://github.com/debuffjp/debuff#try-it)**
 
-> Early development (0.x). APIs are still moving, and feedback from real games shapes them.
+## What debuff gives you
+
+- **A small, fast runtime.** Batched WebGL2 with a Canvas 2D fallback holds about 200,000 sprites at 60 fps on our benchmark machine, and the starter game ships at about 13 kB brotli.
+- **Dev tools that explain things.** Errors say whose bug it is and link the exact source line. Frame drops say whether your code caused them. Feel values become live sliders.
+- **Agents as helpers, people in charge.** An MCP server lets coding agents play the game you have open, read its state and errors, and run deterministic screenshot tests. You see and can undo everything they do.
+- **Web standards only.** ES modules, a canvas, Web Audio and Gamepad. No proprietary editor or project format.
+
+> **Status: early development (0.x).** Packages aren't on npm yet. Until they are, [run debuff from source](https://github.com/debuffjp/debuff#try-it). APIs will change, and feedback from real games shapes them.
 
 ## Repositories
 
 | Repo | What's there |
 | --- | --- |
-| [**debuff**](https://github.com/debuffjp/debuff) | Runtime packages, CLI, scaffolder, templates |
-| [**docs**](https://github.com/debuffjp/docs) | Documentation site: [debuffjp.github.io/docs](https://debuffjp.github.io/docs/) |
-| [**brand**](https://github.com/debuffjp/brand) | Wordmark, buff the mascot, sprite sheet, social card |
-
-Jams, examples, asset packs and community plugins will get their own repos as they arrive.
+| [**debuff**](https://github.com/debuffjp/debuff) | Runtime packages, CLI, scaffolder, MCP server, templates |
+| [**docs**](https://github.com/debuffjp/docs) | The [debuff.jp](https://debuff.jp) site: guides, API reference, `llms.txt` |
+| [**brand**](https://github.com/debuffjp/brand) | The foundation mark, the debuff wordmark, buff the mascot, sprite sheet and social card |
 
 ## Get involved
 
-- Read the [contributing guide](https://github.com/debuffjp/debuff/blob/main/CONTRIBUTING.md) and the [roadmap](https://github.com/debuffjp/debuff/blob/main/docs/roadmap.md)
-- Build a plugin: see the [plugin guide](https://github.com/debuffjp/debuff/blob/main/docs/plugins.md)
-- Everyone is welcome under our [code of conduct](https://github.com/debuffjp/debuff/blob/main/CODE_OF_CONDUCT.md)
+- Questions, bugs and ideas: [open an issue](https://github.com/debuffjp/debuff/issues).
+- Read the [contributing guide](https://github.com/debuffjp/debuff/blob/main/CONTRIBUTING.md) and the [roadmap](https://github.com/debuffjp/debuff/blob/main/docs/roadmap.md), or build a [plugin](https://github.com/debuffjp/debuff/blob/main/docs/plugins.md).
+- Everyone is welcome under our [code of conduct](https://github.com/debuffjp/debuff/blob/main/CODE_OF_CONDUCT.md).
