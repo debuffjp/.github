@@ -2,7 +2,7 @@
 
 We make **[debuff](https://github.com/debuffjp/debuff)**, an open-source toolkit for small, polished 2D games that run in the browser. **More room for play:** less setup and plumbing, more time for mechanics, art and weird ideas.
 
-**[debuff.jp](https://debuff.jp)** · **[why debuff](https://debuff.jp/docs/why)** · **[try it](https://github.com/debuffjp/debuff#try-it)**
+**[debuff.jp](https://debuff.jp)** · **[why debuff](https://debuff.jp/docs/why)** · **[examples](https://debuff.jp/examples)** · **[try it](https://debuff.jp/docs/getting-started)**
 
 ## What debuff gives you
 
