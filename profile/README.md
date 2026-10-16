@@ -11,7 +11,11 @@ We make **[debuff](https://github.com/debuffjp/debuff)**, an open-source toolkit
 - **Agents as helpers, people in charge.** An MCP server lets coding agents play the game you have open, read its state and errors, and run deterministic screenshot tests. You see and can undo everything they do.
 - **Web standards only.** ES modules, a canvas, Web Audio and Gamepad. No proprietary editor or project format.
 
-> **Status: early development (0.x).** Packages aren't on npm yet. Until they are, [run debuff from source](https://github.com/debuffjp/debuff#try-it). APIs will change, and feedback from real games shapes them.
+```bash
+npm create debuff@latest my-game
+```
+
+> **Status: 0.1, early development.** APIs will change, and feedback from real games shapes them.
 
 ## Repositories
 
