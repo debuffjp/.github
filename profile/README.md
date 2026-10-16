@@ -1,4 +1,6 @@
-# Debuff
+<img src="https://raw.githubusercontent.com/debuffjp/debuff/main/.github/deeb.svg" width="96" align="right" alt="deeb, the debuff mascot">
+
+# debuff
 
 **More room for play.** An open-source, agent-native toolkit for small, polished 2D web games, built for game jams and instant-play distribution.
 
