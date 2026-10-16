@@ -3,9 +3,9 @@
   <img src="https://raw.githubusercontent.com/debuffjp/brand/main/assets/lockup-ink.svg" width="300" alt="debuff">
 </picture>
 
-**More room for play.** An open-source, agent-native toolkit for small, polished 2D web games, built for game jams and instant-play distribution.
+**more room for play.** An open-source, agent-native toolkit for small, polished 2D web games, built for game jams and instant-play distribution.
 
-- **Web-standard.** Canvas 2D, Pointer Events, Web Audio, ES modules. No proprietary runtime, editor or project format.
+- **Web-standard.** WebGL2 with a Canvas 2D fallback, Pointer Events, Gamepad, Web Audio, ES modules. No proprietary runtime, editor or project format.
 - **Lean by default.** Tree-shakeable packages, and every build reports its size. Dev tooling can't leak into what players download.
 - **Agent-ready, human-led.** Typed creative parameters, a dev inspection surface and deterministic scenario tests. AI agents get evidence; people keep creative control.
 
