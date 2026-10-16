@@ -1,6 +1,7 @@
-<img src="https://raw.githubusercontent.com/debuffjp/debuff/main/.github/deeb.svg" width="96" align="right" alt="deeb, the debuff mascot">
-
-# debuff
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/debuffjp/brand/main/assets/lockup-lime.svg">
+  <img src="https://raw.githubusercontent.com/debuffjp/brand/main/assets/lockup-ink.svg" width="300" alt="debuff">
+</picture>
 
 **More room for play.** An open-source, agent-native toolkit for small, polished 2D web games, built for game jams and instant-play distribution.
 
@@ -18,9 +19,11 @@ npm create debuff@latest my-game
 
 | Repo | What's there |
 | --- | --- |
-| [**debuff**](https://github.com/debuffjp/debuff) | Runtime packages, CLI, scaffolder, templates and docs |
+| [**debuff**](https://github.com/debuffjp/debuff) | Runtime packages, CLI, scaffolder, templates |
+| [**docs**](https://github.com/debuffjp/docs) | Documentation site: [debuffjp.github.io/docs](https://debuffjp.github.io/docs/) |
+| [**brand**](https://github.com/debuffjp/brand) | Wordmark, buff the mascot, sprite sheet, social card |
 
-Docs, jams, examples, asset packs and community plugins will get their own repos as they arrive.
+Jams, examples, asset packs and community plugins will get their own repos as they arrive.
 
 ## Get involved
 
