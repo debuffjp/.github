@@ -10,19 +10,21 @@ npm create debuff@latest my-game
 
 ## What debuff gives you
 
-- **A small, fast runtime.** Batched WebGL2 with a Canvas 2D fallback holds about 200,000 sprites at 60 fps on our benchmark machine, and the starter game ships at about 15 kB brotli.
+- **A small, fast runtime.** Rendering is [spryte](https://github.com/debuffjp/spryte), which draws moving sprites 2–4× faster than PixiJS in [2dbench](https://github.com/debuffjp/2dbench), an open, pixel-checked benchmark, from about 10 kB of JavaScript.
 - **Crisp pixel art out of the box.** Integer scaling, pixel snapping and **debuff sans**, our own pixel font, as the default for text.
 - **Tests that play the real game.** Logic tests run the actual game in Node in milliseconds, scenarios check it in a browser (including flashes and contrast), and a fuzzer plays it with random hands until something breaks. Every finding replays exactly.
 - **Dev tools that explain things.** Errors say whose bug it is and link the exact source line. Rewind and scrub a live session. Frame drops say why. Feel values become live sliders.
 - **Agents as helpers, people in charge.** An MCP server and plugins for Claude Code and Codex let agents play the game you have open, read its state and errors, and run the tests. You see and can undo everything they do.
 - **Web standards only.** ES modules, a canvas, Web Audio and Gamepad. No proprietary editor or project format.
 
-> **Status: 0.6, early development.** APIs will change, and feedback from real games shapes them.
+> **Status: 0.9, early development.** APIs will change, and feedback from real games shapes them.
 
 ## Tools for any web game
 
-Two of our tools work outside debuff too, with Phaser, PixiJS, three.js and plain canvas games:
+These work outside debuff too, with Phaser, PixiJS, three.js and plain canvas games:
 
+- **[spryte](https://github.com/debuffjp/spryte)**: the renderer inside debuff as a standalone MIT package. Immediate mode, batched WebGL2 with a Canvas 2D fallback, about 10 kB.
+- **[2dbench](https://github.com/debuffjp/2dbench)**: an open, fair benchmark for 2D web renderers. Same scenes and simulation for every library, a pixel-parity gate, full environment with every result. [Run it on your device](https://debuffjp.github.io/2dbench/mobile.html).
 - **[myaku](https://github.com/debuffjp/debuff/tree/main/packages/myaku)**: a frame profiler that finds the hitches players feel and says why in plain words.
 - **[keiko](https://github.com/debuffjp/debuff/tree/main/tooling/keiko)**: fast, deterministic logic tests that run your real game in Node, no browser.
 
@@ -31,6 +33,8 @@ Two of our tools work outside debuff too, with Phaser, PixiJS, three.js and plai
 | Repo | What's there |
 | --- | --- |
 | [**debuff**](https://github.com/debuffjp/debuff) | Runtime packages, CLI, scaffolder, MCP server, keiko, myaku, templates |
+| [**spryte**](https://github.com/debuffjp/spryte) | The renderer: WebGL2 sprites, shapes, text, render targets and shaders, with a Canvas 2D fallback |
+| [**2dbench**](https://github.com/debuffjp/2dbench) | Open benchmark for 2D web renderers, with community results from many devices |
 | [**docs**](https://github.com/debuffjp/docs) | The [debuff.jp](https://debuff.jp) site: guides, API reference, playable examples, `llms.txt` |
 | [**overbuffed**](https://github.com/debuffjp/overbuffed) | A swarm survival game starring buff, built in the open to find what debuff should do better. [Play it](https://debuff.jp/play/overbuffed/) |
 | [**debuff-sans**](https://github.com/debuffjp/debuff-sans) | Our pixel font as TTF, BDF and a sprite sheet, free under the SIL Open Font License |
