@@ -10,7 +10,7 @@ npm create debuff@latest my-game
 
 ## What debuff gives you
 
-- **A small, fast runtime.** Rendering is [spryte](https://github.com/debuffjp/spryte), which draws moving sprites 2–4× faster than the most widely used 2D web renderer in [2dbench](https://github.com/debuffjp/2dbench), an open, pixel-checked benchmark, from about 10 kB of JavaScript.
+- **A small, fast runtime.** Rendering is [spryte](https://github.com/debuffjp/spryte), which draws moving sprites 2–4× faster than the most popular 2D web renderer, at a ninth of its size in [2dbench](https://github.com/debuffjp/2dbench), an open, pixel-checked benchmark, from about 10 kB of JavaScript.
 - **Crisp pixel art out of the box.** Integer scaling, pixel snapping and **debuff sans**, our own pixel font, as the default for text.
 - **Tests that play the real game.** Logic tests run the actual game in Node in milliseconds, scenarios check it in a browser (including flashes and contrast), and a fuzzer plays it with random hands until something breaks. Every finding replays exactly.
 - **Dev tools that explain things.** Errors say whose bug it is and link the exact source line. Rewind and scrub a live session. Frame drops say why. Feel values become live sliders.
