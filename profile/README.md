@@ -36,6 +36,7 @@ These work outside debuff too, with Phaser, PixiJS, three.js and plain canvas ga
 | [**spryte**](https://github.com/debuffjp/spryte) | The renderer: WebGL2 sprites, shapes, text, render targets and shaders, with a Canvas 2D fallback |
 | [**2dbench**](https://github.com/debuffjp/2dbench) | Open benchmark for 2D web renderers, with community results from many devices |
 | [**overbuffed**](https://github.com/debuffjp/overbuffed) | A swarm survival game starring buff, built in the open to find what debuff should do better. [Play it](https://debuff.jp/play/overbuffed/) |
+| [**tenten**](https://github.com/debuffjp/tenten) | Headless pixel art for coding agents: an MCP server that draws sprites and animations, saves `.tt` and `.aseprite`, and exports sheets debuff loads |
 | [**debuff-sans**](https://github.com/debuffjp/debuff-sans) | Our pixel font as TTF, BDF and a sprite sheet, free under the SIL Open Font License |
 | [**brand**](https://github.com/debuffjp/brand) | The foundation mark, the debuff wordmark, buff the mascot, sprite sheet and social card |
 
