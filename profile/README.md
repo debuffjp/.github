@@ -43,6 +43,7 @@ These work outside debuff too, with Phaser, PixiJS, three.js and plain canvas ga
 ## Get involved
 
 - Come say hi, share what you're making, or ask anything on [Discord](https://discord.gg/jshbDHSpCY).
+- Everything we make is free and MIT licensed. [Sponsor us on GitHub](https://github.com/sponsors/debuffjp) to keep it that way.
 - Bugs and ideas: [open an issue](https://github.com/debuffjp/debuff/issues).
 - Read the [contributing guide](https://github.com/debuffjp/debuff/blob/main/CONTRIBUTING.md) and the [roadmap](https://github.com/debuffjp/debuff/blob/main/docs/roadmap.md), or build a [plugin](https://github.com/debuffjp/debuff/blob/main/docs/plugins.md).
 - Everyone is welcome under our [code of conduct](https://github.com/debuffjp/debuff/blob/main/CODE_OF_CONDUCT.md).
