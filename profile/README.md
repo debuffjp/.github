@@ -32,6 +32,7 @@ These work without debuff, alongside Phaser, PixiJS, three.js, KAPLAY or a plain
 - **[plonk](https://github.com/debuffjp/debuff/tree/main/packages/plonk)**: game music made in code. Songs are tiny data, synthesized live with Web Audio. No audio files, a few kB.
 - **[myaku](https://github.com/debuffjp/debuff/tree/main/packages/myaku)**: a frame profiler that finds the hitches players feel and says why in plain words.
 - **[keiko](https://github.com/debuffjp/debuff/tree/main/tooling/keiko)**: fast, deterministic logic tests that run your real game in Node, no browser.
+- **[game-lint](https://github.com/debuffjp/game-lint)**: lint rules for game logic in oxlint and ESLint. Catches unseeded randomness, real clocks and browser timers that break replays, and allocations in update loops that cause hitches.
 - **[2dbench](https://github.com/debuffjp/2dbench)**: an open, fair benchmark for 2D web renderers. Same scenes and simulation for every library, a pixel-parity gate, and the full environment with every result. [Run it on your device](https://debuffjp.github.io/2dbench/mobile.html).
 - **[2d-web-game-skills](https://github.com/debuffjp/2d-web-game-skills)**: agent skills for writing and reviewing 2D web games.
 
@@ -43,6 +44,7 @@ These work without debuff, alongside Phaser, PixiJS, three.js, KAPLAY or a plain
 | [**spryte**](https://github.com/debuffjp/spryte) | The renderer: WebGL2 sprites, shapes, text, render targets and shaders, with a Canvas 2D fallback |
 | [**tenten**](https://github.com/debuffjp/tenten) | Headless, scriptable pixel art and animation; `.tt` and `.aseprite` |
 | [**2dbench**](https://github.com/debuffjp/2dbench) | Open benchmark for 2D web renderers, with community results from many devices |
+| [**game-lint**](https://github.com/debuffjp/game-lint) | Lint rules for game logic, one plugin for oxlint and ESLint |
 | [**plugins**](https://github.com/debuffjp/plugins) | Official and community plugins for debuff |
 | [**2d-web-game-skills**](https://github.com/debuffjp/2d-web-game-skills) | Agent skills for 2D web games |
 | [**overbuffed**](https://github.com/debuffjp/overbuffed) | A swarm survival game starring buff, built in the open to find what debuff should do better. [Play it](https://debuff.jp/play/overbuffed/) |
