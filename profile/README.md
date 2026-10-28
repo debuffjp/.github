@@ -1,4 +1,4 @@
-# Debuff Foundation
+# Debuff 
 
 We make **[debuff](https://github.com/debuffjp/debuff)**, an open-source toolkit for small, polished 2D games that run in the browser. **More room for play:** less setup and plumbing, more time for mechanics, art and weird ideas.
 
