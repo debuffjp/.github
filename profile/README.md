@@ -8,7 +8,7 @@ Each tool does one job well and works on its own with whatever you already use. 
 
 ## debuff
 
-**[debuff](https://github.com/debuffjp/debuff)** is our toolkit for small, polished 2D games that run in the browser: less setup, more time for mechanics, art and weird ideas.
+**[debuff](https://github.com/debuffjp/debuff)** is our framework for small, polished 2D games that run in the browser: less setup, more time for mechanics, art and weird ideas.
 
 ```bash
 npm create debuff@latest my-game
