@@ -1,10 +1,16 @@
-# Debuff
+<p align="center"><img src="assets/banner.svg" alt="debuff: open tools for small, polished 2D web games" width="100%"></p>
 
-**Best-in-class, open tools for games and creative work on the web.**
+<p align="center"><strong>Best-in-class, open tools for games and creative work on the web.</strong></p>
 
-Each tool does one job well and works on its own with whatever you already use. Together they make one fast, open foundation, so you spend your time on the idea, not the plumbing.
+<p align="center">Each tool does one job well and works on its own with whatever you already use.<br>Together they make one fast, open foundation, so you spend your time on the idea, not the plumbing.</p>
 
-**[debuff.jp](https://debuff.jp)** · **[why debuff](https://debuff.jp/docs/why)** · **[play the examples](https://debuff.jp/examples)** · **[try it](https://debuff.jp/docs/getting-started)** · **[Discord](https://discord.gg/jshbDHSpCY)**
+<p align="center">
+<a href="https://debuff.jp"><img src="https://img.shields.io/badge/debuff.jp-cffb2d?style=for-the-badge&labelColor=11140d&color=cffb2d" alt="debuff.jp"></a>
+<a href="https://debuff.jp/docs/why"><img src="https://img.shields.io/badge/why_debuff-fbbf24?style=for-the-badge" alt="why debuff"></a>
+<a href="https://debuff.jp/examples"><img src="https://img.shields.io/badge/play_the_examples-f472b6?style=for-the-badge" alt="play the examples"></a>
+<a href="https://debuff.jp/docs/getting-started"><img src="https://img.shields.io/badge/try_it-38bdf8?style=for-the-badge" alt="try it"></a>
+<a href="https://discord.gg/jshbDHSpCY"><img src="https://img.shields.io/badge/discord-a78bfa?style=for-the-badge&logo=discord&logoColor=11140d" alt="Discord"></a>
+</p>
 
 ## debuff
 
@@ -27,14 +33,24 @@ npm create debuff@latest my-game
 
 These work without debuff, alongside Phaser, PixiJS, three.js, KAPLAY or a plain canvas:
 
-- **[spryte](https://github.com/debuffjp/spryte)**: the renderer inside debuff as a standalone package. Immediate mode, batched WebGL2 with a Canvas 2D fallback, about 10 kB.
-- **[tenten](https://github.com/debuffjp/tenten)**: headless pixel art for coding agents. Draws sprites and animations over MCP, a CLI or a TypeScript API, and reads and writes `.aseprite`.
-- **[plonk](https://github.com/debuffjp/debuff/tree/main/packages/plonk)**: game music made in code. Songs are tiny data, synthesized live with Web Audio. No audio files, a few kB.
-- **[myaku](https://github.com/debuffjp/debuff/tree/main/packages/myaku)**: a frame profiler that finds the hitches players feel and says why in plain words.
-- **[keiko](https://github.com/debuffjp/debuff/tree/main/tooling/keiko)**: fast, deterministic logic tests that run your real game in Node, no browser.
-- **[game-lint](https://github.com/debuffjp/game-lint)**: lint rules for game logic in oxlint and ESLint. Catches unseeded randomness, real clocks and browser timers that break replays, and allocations in update loops that cause hitches.
-- **[2dbench](https://github.com/debuffjp/2dbench)**: an open, fair benchmark for 2D web renderers. Same scenes and simulation for every library, a pixel-parity gate, and the full environment with every result. [Run it on your device](https://debuffjp.github.io/2dbench/mobile.html).
-- **[2d-web-game-skills](https://github.com/debuffjp/2d-web-game-skills)**: agent skills for writing and reviewing 2D web games.
+<table>
+<tr>
+<td width="50%" valign="top"><img src="assets/spryte.svg" width="40" align="left" alt="">&nbsp;<a href="https://github.com/debuffjp/spryte"><strong>spryte</strong></a><br>&nbsp;The renderer inside debuff, standalone. Immediate mode, batched WebGL2 with a Canvas 2D fallback, about 10 kB.</td>
+<td width="50%" valign="top"><img src="assets/tenten.svg" width="40" align="left" alt="">&nbsp;<a href="https://github.com/debuffjp/tenten"><strong>tenten</strong></a><br>&nbsp;Headless pixel art for coding agents: sprites and animations over MCP, a CLI or a TypeScript API. Reads and writes <code>.aseprite</code>.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><img src="assets/plonk.svg" width="40" align="left" alt="">&nbsp;<a href="https://github.com/debuffjp/debuff/tree/main/packages/plonk"><strong>plonk</strong></a><br>&nbsp;Game music made in code. Songs are tiny data, synthesized live with Web Audio. No audio files, a few kB.</td>
+<td width="50%" valign="top"><img src="assets/myaku.svg" width="40" align="left" alt="">&nbsp;<a href="https://github.com/debuffjp/debuff/tree/main/packages/myaku"><strong>myaku</strong></a><br>&nbsp;A frame profiler that finds the hitches players feel and says why in plain words.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><img src="assets/keiko.svg" width="40" align="left" alt="">&nbsp;<a href="https://github.com/debuffjp/debuff/tree/main/tooling/keiko"><strong>keiko</strong></a><br>&nbsp;Fast, deterministic logic tests that run your real game in Node, no browser.</td>
+<td width="50%" valign="top"><img src="assets/game-lint.svg" width="40" align="left" alt="">&nbsp;<a href="https://github.com/debuffjp/game-lint"><strong>game-lint</strong></a><br>&nbsp;Lint rules for oxlint and ESLint: unseeded randomness, real clocks and timers that break replays, allocations in update loops.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><img src="assets/2dbench.svg" width="40" align="left" alt="">&nbsp;<a href="https://github.com/debuffjp/2dbench"><strong>2dbench</strong></a><br>&nbsp;An open, fair benchmark for 2D web renderers, with a pixel-parity gate. <a href="https://debuffjp.github.io/2dbench/mobile.html">Run it on your device</a>.</td>
+<td width="50%" valign="top"><img src="assets/skills.svg" width="40" align="left" alt="">&nbsp;<a href="https://github.com/debuffjp/2d-web-game-skills"><strong>2d-web-game-skills</strong></a><br>&nbsp;Agent skills for writing and reviewing 2D web games.</td>
+</tr>
+</table>
 
 ## Repositories
 
@@ -50,6 +66,8 @@ These work without debuff, alongside Phaser, PixiJS, three.js, KAPLAY or a plain
 | [**overbuffed**](https://github.com/debuffjp/overbuffed) | A swarm survival game starring buff, built in the open to find what debuff should do better. [Play it](https://debuff.jp/play/overbuffed/) |
 | [**debuff-sans**](https://github.com/debuffjp/debuff-sans) | Our pixel font as TTF, BDF and a sprite sheet, under the SIL Open Font License |
 | [**brand**](https://github.com/debuffjp/brand) | The foundation mark, the debuff wordmark, buff the mascot, sprite sheet and social card |
+
+<p align="center"><img src="https://raw.githubusercontent.com/debuffjp/brand/main/assets/buff-happy.svg" width="56" alt="buff, the debuff mascot"></p>
 
 ## Get involved
 
