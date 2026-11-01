@@ -54,10 +54,10 @@ These work without debuff, alongside Phaser, PixiJS, three.js, KAPLAY or a plain
 
 ## Beyond games
 
-**[decidejs](https://github.com/debuffjp/decidejs)** is a System One model in the browser: it picks one of your labels for a piece of text on the user's device, in milliseconds, with confidence you can act on, and asks an LLM only when it isn't sure. Your labels are the type. [Try it](https://debuff.jp/decidejs/playground/) · [Watch it learn](https://debuff.jp/decidejs/lanes/)
+**[decidekit](https://github.com/debuffjp/decidekit)** is a System One model in the browser: it picks one of your labels for a piece of text on the user's device, in milliseconds, with confidence you can act on, and asks an LLM only when it isn't sure. Your labels are the type. [Try it](https://debuff.jp/decidekit/playground/) · [Watch it learn](https://debuff.jp/decidekit/lanes/)
 
 ```bash
-npm install decidejs
+npm install decidekit
 ```
 
 ## Repositories
@@ -73,7 +73,7 @@ npm install decidejs
 | [**2d-web-game-skills**](https://github.com/debuffjp/2d-web-game-skills) | Agent skills for 2D web games |
 | [**overbuffed**](https://github.com/debuffjp/overbuffed) | A swarm survival game starring buff, built in the open to find what debuff should do better. [Play it](https://debuff.jp/play/overbuffed/) |
 | [**debuff-sans**](https://github.com/debuffjp/debuff-sans) | Our pixel font as TTF, BDF and a sprite sheet, under the SIL Open Font License |
-| [**decidejs**](https://github.com/debuffjp/decidejs) | Typed, calibrated text decisions in the browser and Node; learns from an LLM when unsure |
+| [**decidekit**](https://github.com/debuffjp/decidekit) | Typed, calibrated text decisions in the browser and Node; learns from an LLM when unsure |
 | [**brand**](https://github.com/debuffjp/brand) | The foundation mark, the debuff wordmark, buff the mascot, sprite sheet and social card |
 
 <p align="center"><img src="https://raw.githubusercontent.com/debuffjp/brand/main/assets/buff-happy.svg" width="56" alt="buff, the debuff mascot"></p>
