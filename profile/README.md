@@ -27,7 +27,7 @@ npm create debuff@latest my-game
 - **Agents as helpers, people in charge.** An MCP server and plugins for Claude Code and Codex let agents play the game you have open, read its state and errors, and run the tests. You see everything they do and can undo it.
 - **Web standards only.** ES modules, a canvas, Web Audio and Gamepad. No proprietary editor or project format.
 
-> **Status: 0.21, early development.** APIs will change, and feedback from real games shapes them.
+> **Status: 0.29, early development.** APIs will change, and feedback from real games shapes them.
 
 ## Tools for any web game
 
@@ -68,11 +68,6 @@ npm install decidekit
 | --- | --- |
 | [**debuff**](https://github.com/debuffjp/debuff) | Runtime packages, CLI, scaffolder, MCP server, keiko, myaku, plonk, templates |
 | [**spryte**](https://github.com/debuffjp/spryte) | The renderer: WebGL2 sprites, shapes, text, render targets and shaders, with a Canvas 2D fallback |
-
-### Art and fonts
-
-| Repo | What's there |
-| --- | --- |
 | [**tenten**](https://github.com/debuffjp/tenten) | Headless, scriptable pixel art and animation; `.tt` and `.aseprite` |
 | [**debuff-sans**](https://github.com/debuffjp/debuff-sans) | Our pixel font as TTF, BDF and a sprite sheet, under the SIL Open Font License |
 
@@ -90,13 +85,13 @@ npm install decidekit
 | [**2d-web-game-skills**](https://github.com/debuffjp/2d-web-game-skills) | Agent skills for 2D web games |
 | [**plugins**](https://github.com/debuffjp/plugins) | Official and community plugins for debuff |
 
-### Beyond games
+### AI
 
 | Repo | What's there |
 | --- | --- |
 | [**decidekit**](https://github.com/debuffjp/decidekit) | Typed, calibrated text decisions in the browser and Node; learns from an LLM when unsure |
 
-### Games and brand
+### Miscellaneous
 
 | Repo | What's there |
 | --- | --- |
