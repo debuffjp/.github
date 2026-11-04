@@ -62,18 +62,45 @@ npm install decidekit
 
 ## Repositories
 
+### Core
+
 | Repo | What's there |
 | --- | --- |
 | [**debuff**](https://github.com/debuffjp/debuff) | Runtime packages, CLI, scaffolder, MCP server, keiko, myaku, plonk, templates |
 | [**spryte**](https://github.com/debuffjp/spryte) | The renderer: WebGL2 sprites, shapes, text, render targets and shaders, with a Canvas 2D fallback |
+
+### Art and fonts
+
+| Repo | What's there |
+| --- | --- |
 | [**tenten**](https://github.com/debuffjp/tenten) | Headless, scriptable pixel art and animation; `.tt` and `.aseprite` |
-| [**2dbench**](https://github.com/debuffjp/2dbench) | Open benchmark for 2D web renderers, with community results from many devices |
-| [**game-lint**](https://github.com/debuffjp/game-lint) | Lint rules for game logic, one plugin for oxlint and ESLint |
-| [**plugins**](https://github.com/debuffjp/plugins) | Official and community plugins for debuff |
-| [**2d-web-game-skills**](https://github.com/debuffjp/2d-web-game-skills) | Agent skills for 2D web games |
-| [**overbuffed**](https://github.com/debuffjp/overbuffed) | A swarm survival game starring buff, built in the open to find what debuff should do better. [Play it](https://debuff.jp/play/overbuffed/) |
 | [**debuff-sans**](https://github.com/debuffjp/debuff-sans) | Our pixel font as TTF, BDF and a sprite sheet, under the SIL Open Font License |
+
+### Testing and benchmarks
+
+| Repo | What's there |
+| --- | --- |
+| [**game-lint**](https://github.com/debuffjp/game-lint) | Lint rules for game logic, one plugin for oxlint and ESLint |
+| [**2dbench**](https://github.com/debuffjp/2dbench) | Open benchmark for 2D web renderers, with community results from many devices |
+
+### Agents and plugins
+
+| Repo | What's there |
+| --- | --- |
+| [**2d-web-game-skills**](https://github.com/debuffjp/2d-web-game-skills) | Agent skills for 2D web games |
+| [**plugins**](https://github.com/debuffjp/plugins) | Official and community plugins for debuff |
+
+### Beyond games
+
+| Repo | What's there |
+| --- | --- |
 | [**decidekit**](https://github.com/debuffjp/decidekit) | Typed, calibrated text decisions in the browser and Node; learns from an LLM when unsure |
+
+### Games and brand
+
+| Repo | What's there |
+| --- | --- |
+| [**overbuffed**](https://github.com/debuffjp/overbuffed) | A swarm survival game starring buff, built in the open to find what debuff should do better. [Play it](https://debuff.jp/play/overbuffed/) |
 | [**brand**](https://github.com/debuffjp/brand) | The foundation mark, the debuff wordmark, buff the mascot, sprite sheet and social card |
 
 <p align="center"><img src="https://raw.githubusercontent.com/debuffjp/brand/main/assets/buff-happy.svg" width="56" alt="buff, the debuff mascot"></p>
