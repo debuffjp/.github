@@ -69,6 +69,7 @@ npm install decidekit
 | [**debuff**](https://github.com/debuffjp/debuff) | Runtime packages, CLI, scaffolder, MCP server, keiko, myaku, plonk, templates |
 | [**spryte**](https://github.com/debuffjp/spryte) | The renderer: WebGL2 sprites, shapes, text, render targets and shaders, with a Canvas 2D fallback |
 | [**tenten**](https://github.com/debuffjp/tenten) | Headless, scriptable pixel art and animation; `.tt` and `.aseprite` |
+| [**earshot**](https://github.com/debuffjp/earshot) | Spatial audio for 2D web games: sound through walls and rooms, and mic loudness as input |
 | [**debuff-sans**](https://github.com/debuffjp/debuff-sans) | Our pixel font as TTF, BDF and a sprite sheet, under the SIL Open Font License |
 
 ### Testing and benchmarks
